@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: inline-flex;
+    position: fixed;
+    background: rgb(255,255,255,0.9);
+    width: 100%;
+    top: 0%;
+}
+
+header img{
+    width: 40vw;
+}
+
+.navi{
+    width: 100%;
+}
+
+.navi li{
+    display: inline;
+    text-decoration: none;
+    margin: 1% 10% 2% 0%;
+    float: right;
+    font-size: 20;
+}
+
+
+#hero{
+    width: 100%;
+    top: 0%;
+}
+
+.best li{
+    display: inline;
+}
+
+.seasons li{
+    display: inline;
+}
