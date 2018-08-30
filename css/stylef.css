@@ -79,7 +79,7 @@ h2{
     align-items: center;
 }
 
-@media(max-width=600px){
+@media(max-width: 600px){
     .best {
         display: flex;
         flex-flow: column wrap;
@@ -118,7 +118,7 @@ h2{
      
 }
 
-@media(max-width=600px){
+@media(max-width: 600px){
 
     .child{
         display: flex;
@@ -164,7 +164,7 @@ footer a{
 
 /*Media Queries*/
 
-@media(max-width=600px){
+@media(max-width: 600px){
 
     footer{
         display: flex;
