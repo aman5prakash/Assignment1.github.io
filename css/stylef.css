@@ -79,6 +79,14 @@ h2{
     align-items: center;
 }
 
+@media(max-width=600px){
+    .best {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+    }
+}
+
 /*Seasons*/
 
 .seasons{
@@ -145,11 +153,7 @@ footer a{
 /*Media Queries*/
 
 @media(max-width=600px){
-    .best {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-start;
-    }
+
 
     .child{
         display: flex;
