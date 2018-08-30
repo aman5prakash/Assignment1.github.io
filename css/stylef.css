@@ -140,7 +140,7 @@ footer{
     flex-flow: row wrap;
     bottom: 0%;
     width: 100%;
-    background: rgb(1,1,1, 0.6);
+    background: rgb(128,128,128);
 }
 
 .about, .social, .office{
@@ -185,7 +185,7 @@ footer a{
         flex-flow: column wrap;
         bottom: 0%;
         width: 100%;
-        background: rgb(1,1,1, 0.6);
+        background: rgb(128,128,128);
     }
 
 }
