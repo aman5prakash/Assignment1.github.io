@@ -5,13 +5,11 @@ html,body{
     width: 100%;
 }
 
-h2{
-    margin: 2%;
-}
-
 a{
     text-decoration: none;
 }
+
+/*Header*/
 
 header{
     display: inline-flex;
@@ -27,6 +25,8 @@ header img{
     flex: 1;
 }
 
+/* Navigation Bar*/
+
 nav{
     float: left;   
     width: 100%;
@@ -39,6 +39,8 @@ nav a{
     padding: 10px;
 }
 
+/*Hero Image*/
+
 #hero{
     height: 100%;
     background-size: 100% 100%;
@@ -49,6 +51,12 @@ nav a{
     
 }
 
+h2{
+    margin: 2%;
+}
+
+/*Best Episodes*/
+
 .best {
     display: flex;
     flex-flow: row wrap;
@@ -58,15 +66,6 @@ nav a{
 .poker, .wedding, .last{
     flex: 1;
 }
-@media (max-width:700px)
-{
-    .best {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-start;
-    }
-}
-
 
 .best label{
     text-decoration: none;
@@ -79,6 +78,8 @@ nav a{
     margin-left: 1%;
     align-items: center;
 }
+
+/*Seasons*/
 
 .seasons{
     display: flex;
@@ -94,6 +95,9 @@ nav a{
     align-items: center;
     align-content: center;
     width: 100%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 
@@ -106,20 +110,7 @@ nav a{
      
 }
 
-@media (max-width:700px){
-  
-    .child{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
-        width: 100%;
-    }
-    
-  }
-
-
+/* Footer */
 footer{
     display: flex;
     flex-flow: row wrap;
@@ -151,7 +142,23 @@ footer a{
     text-decoration: none;
 }
 
-@media(max-width=700px){
+/*Media Queries*/
+
+@media(max-width=600px){
+    .best {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+    }
+
+    .child{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
 
     footer{
         display: flex;
