@@ -115,6 +115,7 @@ h2{
 
 .child a{
     flex: 1;
+    padding-right: 1%;
 }
 
 .child img{
