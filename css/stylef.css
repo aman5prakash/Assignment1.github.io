@@ -107,15 +107,12 @@ h2{
     align-items: center;
     align-content: center;
     width: 100%;
-    padding: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
 }
 
 
 .child a{
     flex: 1;
-    padding-right: 1%;
+    padding: 1%;
 }
 
 .child img{
