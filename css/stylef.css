@@ -5,13 +5,11 @@ html,body{
     width: 100%;
 }
 
-h2{
-    margin: 2%;
-}
-
 a{
     text-decoration: none;
 }
+
+/*Header*/
 
 header{
     display: inline-flex;
@@ -27,6 +25,8 @@ header img{
     flex: 1;
 }
 
+/* Navigation Bar*/
+
 nav{
     float: left;   
     width: 100%;
@@ -39,6 +39,8 @@ nav a{
     padding: 10px;
 }
 
+/*Hero Image*/
+
 #hero{
     height: 100%;
     background-size: 100% 100%;
@@ -48,6 +50,12 @@ nav a{
     background-repeat: no-repeat;
     
 }
+
+h2{
+    margin: 2%;
+}
+
+/*Best Episodes*/
 
 .best {
     display: flex;
@@ -71,6 +79,8 @@ nav a{
     align-items: center;
 }
 
+/*Seasons*/
+
 .seasons{
     display: flex;
     flex-flow: column wrap;
@@ -86,6 +96,11 @@ nav a{
     align-content: center;
     width: 100%;
     padding: 1%;
+<<<<<<< HEAD
+    padding-left: 2%;
+    padding-right: 2%;
+=======
+>>>>>>> b8980715a196f4199d834a558f0961fff91504ee
 }
 
 
@@ -98,6 +113,10 @@ nav a{
      
 }
 
+<<<<<<< HEAD
+/* Footer */
+=======
+>>>>>>> b8980715a196f4199d834a558f0961fff91504ee
 footer{
     display: flex;
     flex-flow: row wrap;
@@ -129,6 +148,11 @@ footer a{
     text-decoration: none;
 }
 
+<<<<<<< HEAD
+/*Media Queries*/
+
+=======
+>>>>>>> b8980715a196f4199d834a558f0961fff91504ee
 @media(max-width=600px){
     .best {
         display: flex;
