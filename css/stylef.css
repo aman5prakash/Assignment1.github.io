@@ -58,15 +58,6 @@ nav a{
 .poker, .wedding, .last{
     flex: 1;
 }
-@media (max-width:700px)
-{
-    .best {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-start;
-    }
-}
-
 
 .best label{
     text-decoration: none;
@@ -106,20 +97,6 @@ nav a{
      
 }
 
-@media (max-width:700px){
-  
-    .child{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
-        width: 100%;
-    }
-    
-  }
-
-
 footer{
     display: flex;
     flex-flow: row wrap;
@@ -151,7 +128,21 @@ footer a{
     text-decoration: none;
 }
 
-@media(max-width=700px){
+@media(max-width=600px){
+    .best {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+    }
+
+    .child{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
 
     footer{
         display: flex;
