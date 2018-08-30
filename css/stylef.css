@@ -161,6 +161,16 @@ footer{
     list-style-type: none;
 }
 
+.icon{
+    display: flex;
+    flex: 1;
+    flex-flow: row wrap;
+}
+
+#fb, #insta, #tweet, #youtube{
+    margin: 2%;
+}
+
 footer a{
     color: white;
     text-decoration: none;
