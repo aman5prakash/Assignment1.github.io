@@ -96,11 +96,8 @@ h2{
     align-content: center;
     width: 100%;
     padding: 1%;
-<<<<<<< HEAD
     padding-left: 2%;
     padding-right: 2%;
-=======
->>>>>>> b8980715a196f4199d834a558f0961fff91504ee
 }
 
 
@@ -113,10 +110,7 @@ h2{
      
 }
 
-<<<<<<< HEAD
 /* Footer */
-=======
->>>>>>> b8980715a196f4199d834a558f0961fff91504ee
 footer{
     display: flex;
     flex-flow: row wrap;
@@ -148,11 +142,8 @@ footer a{
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 /*Media Queries*/
 
-=======
->>>>>>> b8980715a196f4199d834a558f0961fff91504ee
 @media(max-width=600px){
     .best {
         display: flex;
