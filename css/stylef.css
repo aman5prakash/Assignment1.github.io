@@ -118,6 +118,18 @@ h2{
      
 }
 
+@media(max-width=600px){
+
+    .child{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+}
+
 /* Footer */
 footer{
     display: flex;
@@ -153,16 +165,6 @@ footer a{
 /*Media Queries*/
 
 @media(max-width=600px){
-
-
-    .child{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
-        width: 100%;
-    }
 
     footer{
         display: flex;
