@@ -153,6 +153,10 @@ footer{
     list-style-type: none;
 }
 
+.info a{
+    text-align: left;
+}
+
 .social{
     padding: 0%;
     margin: 2%;
